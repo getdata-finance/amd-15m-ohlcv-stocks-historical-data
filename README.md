@@ -1,6 +1,6 @@
 # AMD 15m OHLCV US stocks Historical Data — Free Sample
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE) [![Dataset rows](https://img.shields.io/badge/full_dataset-35_283_rows-blue)](https://getdata.finance/datasets/amd) [![Updated](https://img.shields.io/badge/weekly_update-every_Saturday_8am_UTC-green)](https://getdata.finance) [![Full data on getdata.finance](https://img.shields.io/badge/download-getdata.finance-orange)](https://getdata.finance/datasets/amd)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE) [![Dataset rows](https://img.shields.io/badge/full_dataset-35_465_rows-blue)](https://getdata.finance/datasets/amd) [![Updated](https://img.shields.io/badge/weekly_update-every_Saturday_8am_UTC-green)](https://getdata.finance) [![Full data on getdata.finance](https://img.shields.io/badge/download-getdata.finance-orange)](https://getdata.finance/datasets/amd)
 
 ### -> [**Download the full AMD dataset on getdata.finance**](https://getdata.finance/datasets/amd)
 
@@ -23,11 +23,11 @@
 
 - **Ultra high-quality 15m OHLCV** for **Advanced Micro Devices** (US stocks)
 - **Clean CSV schema** — `datetime, open, high, low, close, volume` (no gaps in formatting)
-- **Free evaluation sample** on GitHub (`15m`) · **11 timeframes** on [getdata.finance](https://getdata.finance/datasets/amd) · **35,283** `15m` rows in the full archive
+- **Free evaluation sample** on GitHub (`15m`) · **11 timeframes** on [getdata.finance](https://getdata.finance/datasets/amd) · **35,465** `15m` rows in the full archive
 - Built for **backtesting**, **algorithmic trading** and **quantitative finance** workflows
 - **Weekly refresh** — [getdata.finance](https://getdata.finance) every **Saturday, 8am UTC+0**; GitHub `15m` sample updated in sync
 
-> **Sample on GitHub** · `AMD_15m.csv` (3,302 rows, `2026-03-12` -> `2026-09-11`, 301.06 KB). **Full archive on [getdata.finance](https://getdata.finance/datasets/amd)** — **35,283** `15m` rows (full `1m`: 525,821), **11 timeframes**, `2021-04-13` -> `2026-09-11`.
+> **Sample on GitHub** · `AMD_15m.csv` (3,302 rows, `2026-03-23` -> `2026-09-22`, 292.76 KB). **Full archive on [getdata.finance](https://getdata.finance/datasets/amd)** — **35,465** `15m` rows (full `1m`: 525,821), **11 timeframes**, `2021-04-13` -> `2026-09-22`.
 
 ## Download sample
 
@@ -45,9 +45,9 @@ Full archive & live chart on getdata.finance: **[https://getdata.finance/dataset
 |---|--:|---|
 | Instrument | Advanced Micro Devices · US stocks | Advanced Micro Devices · US stocks |
 | Timeframes | `15m` (sample) | **11** — 1m · 3m · 5m · 15m · 30m · 1H · 4H · 12H · 1D · 3D · 1W |
-| 15m rows | 3,302 | **35,283** |
-| Size | 301.06 KB | full ZIP on [getdata.finance](https://getdata.finance/datasets/amd) |
-| Period | `2026-03-12` -> `2026-09-11` | `2021-04-13` -> `2026-09-11` |
+| 15m rows | 3,302 | **35,465** |
+| Size | 292.76 KB | full ZIP on [getdata.finance](https://getdata.finance/datasets/amd) |
+| Period | `2026-03-23` -> `2026-09-22` | `2021-04-13` -> `2026-09-22` |
 | File | `AMD_15m.csv` | ZIP on [getdata.finance](https://getdata.finance/datasets/amd) |
 | Coverage report | — | [AMD coverage](https://getdata.finance/coverage/amd) |
 | Updates | Weekly (Saturday, 8am UTC+0) — GitHub sample | Weekly (Saturday, 8am UTC+0) — all timeframes |
@@ -75,21 +75,21 @@ First and latest rows from the GitHub sample **`AMD_15m.csv`**:
 
 | datetime | open | high | low | close | volume |
 | --- | --- | --- | --- | --- | --- |
-| 2026-03-12T13:30:00+00:00 | 204.38 | 204.38 | 200.27 | 200.8 | 3257 |
-| 2026-03-12T13:45:00+00:00 | 200.8 | 200.8 | 197.76 | 198.28 | 4239 |
-| 2026-03-12T14:00:00+00:00 | 198.28 | 200 | 198.28 | 199.81 | 4589 |
-| 2026-03-12T14:15:00+00:00 | 199.81 | 199.92 | 198 | 198.07 | 3681 |
-| 2026-03-12T14:30:00+00:00 | 198.07 | 198.41 | 197.39 | 197.91 | 3541 |
+| 2026-03-23T13:30:00+00:00 | 201.12 | 208.68 | 201.12 | 206.14 | 3445 |
+| 2026-03-23T13:45:00+00:00 | 206.14 | 207.87 | 206.08 | 207.84 | 3071 |
+| 2026-03-23T14:00:00+00:00 | 207.84 | 207.96 | 205.78 | 206.32 | 3177 |
+| 2026-03-23T14:15:00+00:00 | 206.32 | 207.82 | 206.31 | 207.06 | 2531 |
+| 2026-03-23T14:30:00+00:00 | 207.06 | 207.13 | 205.39 | 205.95 | 3029 |
 
 **Last rows**
 
 | datetime | open | high | low | close | volume |
 | --- | --- | --- | --- | --- | --- |
-| 2026-09-11T18:45:00+00:00 | 517.65 | 518.22 | 516.75 | 517.32 | 877 |
-| 2026-09-11T19:00:00+00:00 | 517.32 | 517.32 | 515.11 | 516.25 | 1006 |
-| 2026-09-11T19:15:00+00:00 | 516.25 | 517.28 | 515.32 | 516.09 | 965 |
-| 2026-09-11T19:30:00+00:00 | 516.09 | 516.34 | 514.97 | 515.29 | 1116 |
-| 2026-09-11T19:45:00+00:00 | 515.29 | 516.19 | 514.02 | 515.87 | 2204 |
+| 2026-09-22T18:45:00+00:00 | 618.58 | 618.95 | 617.85 | 618.66 | 1466 |
+| 2026-09-22T19:00:00+00:00 | 618.66 | 620.95 | 618.4 | 620.58 | 1657 |
+| 2026-09-22T19:15:00+00:00 | 620.58 | 621.39 | 619.83 | 620.56 | 1732 |
+| 2026-09-22T19:30:00+00:00 | 620.56 | 621.86 | 620.55 | 620.9 | 2375 |
+| 2026-09-22T19:45:00+00:00 | 620.9 | 624.31 | 620.58 | 623.66 | 3941 |
 
 ## Schema
 
@@ -154,7 +154,7 @@ print(pf.stats())
 
 ## Download full data
 
-The complete **AMD** archive on **[getdata.finance](https://getdata.finance/datasets/amd)** includes **11 OHLCV timeframes** (1m · 3m · 5m · 15m · 30m · 1H · 4H · 12H · 1D · 3D · 1W) — **35,283** rows at `15m`, plus all other timeframes in the same ZIP.
+The complete **AMD** archive on **[getdata.finance](https://getdata.finance/datasets/amd)** includes **11 OHLCV timeframes** (1m · 3m · 5m · 15m · 30m · 1H · 4H · 12H · 1D · 3D · 1W) — **35,465** rows at `15m`, plus all other timeframes in the same ZIP.
 
 **[-> Get the full AMD dataset on getdata.finance](https://getdata.finance/datasets/amd)**
 
